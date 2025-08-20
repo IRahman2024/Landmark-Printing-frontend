@@ -1,0 +1,96 @@
+/* 3D transform styles */
+.transform {
+    transform-style: preserve-3d;
+}
+
+.backface-visibility-hidden {
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+}
+
+.rotate-y-180 {
+    transform: rotateY(180deg);
+}
+
+.group:hover {
+    transform: rotateY(180deg);
+}
+
+/* .card:hover .content {
+    transform: rotateY(180deg);
+} */
+
+/* Neon effect - Fixed to match original exactly */
+/* #ff9966 */
+.neon-effect {
+    position: absolute;
+    content: ' ';
+    display: block;
+    width: 300px;
+    height: 160%;
+    background: linear-gradient(90deg, transparent, #1833cb, #1833cb, #1833cb, #1833cb, transparent);
+    animation: rotation_481 5000ms infinite linear;
+    top: -30%;
+    left: calc(50% - 150px);
+}
+
+@keyframes rotation_481 {
+    0% {
+        transform: rotateZ(0deg);
+    }
+
+    100% {
+        transform: rotateZ(360deg);
+    }
+}
+
+/* Floating circles */
+.floating-circle {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background-color: #ffbb66;
+    position: relative;
+    filter: blur(15px);
+    animation: floating 2600ms infinite linear;
+}
+
+.floating-circle-bottom {
+    background-color: #ff8866;
+    left: 50px;
+    top: 0px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    position: relative;
+    filter: blur(15px);
+    animation: floating 2600ms infinite linear;
+    animation-delay: -800ms;
+}
+
+.floating-circle-right {
+    background-color: #ff2233;
+    left: 160px;
+    top: -80px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    position: relative;
+    filter: blur(15px);
+    animation: floating 2600ms infinite linear;
+    animation-delay: -1800ms;
+}
+
+@keyframes floating {
+    0% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(10px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+}

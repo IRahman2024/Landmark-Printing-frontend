@@ -1,0 +1,27 @@
+.settings {
+    position: absolute;
+    right: 16px;
+    top: 120%;
+    transform: translateY(-50%);
+    gap: 8px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 24px 8px;
+    border-radius: 4px;
+    text-align: left;
+    z-index: 10; /* Ensure it stays above other content */
+    max-height: 70vh; /* Optional: limit height and enable scrolling if content overflows */
+    overflow-y: auto; /* Optional: add scroll if needed */
+}
+
+.settings:empty {
+    padding: 0;
+}
+
+/* Ensure the parent container of the canvas and settings is positioned relatively */
+.canvas-container {
+    position: relative;
+    width: 600px; /* Match your canvas width */
+    margin: 0 auto; /* Center the container if needed */
+}

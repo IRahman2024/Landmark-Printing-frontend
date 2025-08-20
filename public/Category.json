@@ -1,0 +1,523 @@
+{
+    "category": {
+        "furnitures": [
+            {
+                "id": 1,
+                "name": "Modern Wooden Dining Table",
+                "brand": "OakCraft",
+                "price": 299.99,
+                "oldPrice": 349.99,
+                "rating": 4.6,
+                "image": "/public/imges/Compact-Wooden-Dining-table.webp",
+                "description": "A sleek and durable wooden dining table made from high-quality oak. Seats up to 6 people comfortably.",
+                "borrow": true
+            },
+            {
+                "id": 2,
+                "name": "Ergonomic Office Chair",
+                "brand": "WorkEase",
+                "price": 149.99,
+                "oldPrice": null,
+                "rating": 4.3,
+                "image": "/public/imges/ergonomic-chair.webp",
+                "description": "Breathable mesh backrest with adjustable lumbar support. Perfect for long working hours."
+            },
+            {
+                "id": 3,
+                "name": "Convertible Sofa Bed",
+                "brand": "ComfortNest",
+                "price": 499.00,
+                "oldPrice": 579.00,
+                "rating": 4.7,
+                "image": "/public/imges/sofa-bed.webp",
+                "description": "Stylish 3-seater sofa that easily converts into a queen-sized bed. Ideal for guests and compact spaces.",
+                "borrow": true
+            }
+        ],
+        "skinCare": [
+            {
+                "id": 201,
+                "name": "Hydrating Facial Cleanser",
+                "brand": "DermaGlow",
+                "price": 15.99,
+                "oldPrice": 19.99,
+                "rating": 4.6,
+                "image": "/public/imges/9k.webp",
+                "description": "Gentle cleanser that removes dirt and hydrates skin for a soft, fresh feel."
+            },
+            {
+                "id": 202,
+                "name": "Anti-Aging Night Cream",
+                "brand": "YouthRevive",
+                "price": 28.5,
+                "oldPrice": null,
+                "rating": 4.7,
+                "image": "/public/imges/2Q.webp",
+                "description": "Nourishes skin overnight with retinol and collagen boosters."
+            },
+            {
+                "id": 203,
+                "name": "SPF 50 Sunscreen Lotion",
+                "brand": "SunShield",
+                "price": 12.75,
+                "oldPrice": 14.75,
+                "rating": 4.4,
+                "image": "/public/imges/2Q.webp",
+                "description": "Broad-spectrum sunscreen suitable for all skin types."
+            }
+        ],
+        "hairCare": [
+            {
+                "id": 204,
+                "name": "Strengthening Shampoo",
+                "brand": "HairEssence",
+                "price": 9.99,
+                "oldPrice": 12.99,
+                "rating": 4.5,
+                "image": "/public/imges/9k-shampoo.webp",
+                "description": "Infused with keratin to reduce hair breakage and promote shine."
+            },
+            {
+                "id": 205,
+                "name": "Moisturizing Conditioner",
+                "brand": "SilkLocks",
+                "price": 10.5,
+                "oldPrice": null,
+                "rating": 4.3,
+                "image": "/public/imges/9k-shampoo-2.webp",
+                "description": "Hydrates dry strands and makes hair easier to detangle."
+            },
+            {
+                "id": 206,
+                "name": "Hair Growth Serum",
+                "brand": "GrowThick",
+                "price": 24.95,
+                "oldPrice": 29.99,
+                "rating": 4.6,
+                "image": "/public/imges/9k-shampoo-2.webp",
+                "description": "Clinically tested serum that supports natural hair growth."
+            }
+        ],
+        "laptops": [
+            {
+                "id": 207,
+                "name": "UltraBook 14",
+                "brand": "TechNova",
+                "price": 899.0,
+                "oldPrice": 999.0,
+                "rating": 4.5,
+                "image": "/public/imges/ultra.webp",
+                "description": "Slim, lightweight laptop with touch screen and fast SSD storage.",
+                "borrow": true
+            },
+            {
+                "id": 208,
+                "name": "Gaming Laptop X99",
+                "brand": "PowerRig",
+                "price": 1299.99,
+                "oldPrice": 1499.99,
+                "rating": 4.7,
+                "image": "/public/imges/rog.webp",
+                "description": "High-performance laptop with RTX graphics and RGB keyboard."
+            },
+            {
+                "id": 209,
+                "name": "Budget Laptop 15.6\u201d",
+                "brand": "EconoTech",
+                "price": 499.99,
+                "oldPrice": 549.99,
+                "rating": 4.2,
+                "image": "/public/imges/rog.webp",
+                "description": "Affordable, full-sized laptop for everyday productivity and browsing.",
+                "borrow": true
+            }
+        ],
+        "kitchenWare": [
+            {
+                "id": 210,
+                "name": "Kitchenware Product 1",
+                "brand": "KitchenwareBrand1",
+                "price": 10.0,
+                "oldPrice": null,
+                "rating": 4.2,
+                "image": "",
+                "description": "High-quality kitchenware item 1 suitable for daily use."
+            },
+            {
+                "id": 211,
+                "name": "Kitchenware Product 2",
+                "brand": "KitchenwareBrand2",
+                "price": 15.99,
+                "oldPrice": 20.99,
+                "rating": 4.3,
+                "image": "",
+                "description": "High-quality kitchenware item 2 suitable for daily use."
+            },
+            {
+                "id": 212,
+                "name": "Kitchenware Product 3",
+                "brand": "KitchenwareBrand3",
+                "price": 21.98,
+                "oldPrice": null,
+                "rating": 4.4,
+                "image": "",
+                "description": "High-quality kitchenware item 3 suitable for daily use."
+            }
+        ],
+        "headPhones": [
+            {
+                "id": 213,
+                "name": "Headphones Product 1",
+                "brand": "HeadphonesBrand1",
+                "price": 10.0,
+                "oldPrice": null,
+                "rating": 4.2,
+                "image": "",
+                "description": "High-quality headphones item 1 suitable for daily use."
+            },
+            {
+                "id": 214,
+                "name": "Headphones Product 2",
+                "brand": "HeadphonesBrand2",
+                "price": 15.99,
+                "oldPrice": 20.99,
+                "rating": 4.3,
+                "image": "",
+                "description": "High-quality headphones item 2 suitable for daily use."
+            },
+            {
+                "id": 215,
+                "name": "Headphones Product 3",
+                "brand": "HeadphonesBrand3",
+                "price": 21.98,
+                "oldPrice": null,
+                "rating": 4.4,
+                "image": "",
+                "description": "High-quality headphones item 3 suitable for daily use."
+            }
+        ],
+        "beddings": [
+            {
+                "id": 216,
+                "name": "Beddings Product 1",
+                "brand": "BeddingsBrand1",
+                "price": 10.0,
+                "oldPrice": null,
+                "rating": 4.2,
+                "image": "",
+                "description": "High-quality beddings item 1 suitable for daily use."
+            },
+            {
+                "id": 217,
+                "name": "Beddings Product 2",
+                "brand": "BeddingsBrand2",
+                "price": 15.99,
+                "oldPrice": 20.99,
+                "rating": 4.3,
+                "image": "",
+                "description": "High-quality beddings item 2 suitable for daily use."
+            },
+            {
+                "id": 218,
+                "name": "Beddings Product 3",
+                "brand": "BeddingsBrand3",
+                "price": 21.98,
+                "oldPrice": null,
+                "rating": 4.4,
+                "image": "",
+                "description": "High-quality beddings item 3 suitable for daily use."
+            }
+        ],
+        "homeDecore": [
+            {
+                "id": 219,
+                "name": "Home Decorations Product 1",
+                "brand": "Home DecorationsBrand1",
+                "price": 10.0,
+                "oldPrice": null,
+                "rating": 4.2,
+                "image": "",
+                "description": "High-quality home decorations item 1 suitable for daily use."
+            },
+            {
+                "id": 220,
+                "name": "Home Decorations Product 2",
+                "brand": "Home DecorationsBrand2",
+                "price": 15.99,
+                "oldPrice": 20.99,
+                "rating": 4.3,
+                "image": "",
+                "description": "High-quality home decorations item 2 suitable for daily use."
+            },
+            {
+                "id": 221,
+                "name": "Home Decorations Product 3",
+                "brand": "Home DecorationsBrand3",
+                "price": 21.98,
+                "oldPrice": null,
+                "rating": 4.4,
+                "image": "",
+                "description": "High-quality home decorations item 3 suitable for daily use."
+            }
+        ],
+        "storage": [
+            {
+                "id": 222,
+                "name": "Storage Product 1",
+                "brand": "StorageBrand1",
+                "price": 10.0,
+                "oldPrice": null,
+                "rating": 4.2,
+                "image": "",
+                "description": "High-quality storage item 1 suitable for daily use.",
+                "borrow": true
+            },
+            {
+                "id": 223,
+                "name": "Storage Product 2",
+                "brand": "StorageBrand2",
+                "price": 15.99,
+                "oldPrice": 20.99,
+                "rating": 4.3,
+                "image": "",
+                "description": "High-quality storage item 2 suitable for daily use."
+            },
+            {
+                "id": 224,
+                "name": "Storage Product 3",
+                "brand": "StorageBrand3",
+                "price": 21.98,
+                "oldPrice": null,
+                "rating": 4.4,
+                "image": "",
+                "description": "High-quality storage item 3 suitable for daily use."
+            }
+        ],
+        "equipment": [
+            {
+                "id": 225,
+                "name": "Equipment Product 1",
+                "brand": "EquipmentBrand1",
+                "price": 10.0,
+                "oldPrice": null,
+                "rating": 4.2,
+                "image": "",
+                "description": "High-quality equipment item 1 suitable for daily use."
+            },
+            {
+                "id": 226,
+                "name": "Equipment Product 2",
+                "brand": "EquipmentBrand2",
+                "price": 15.99,
+                "oldPrice": 20.99,
+                "rating": 4.3,
+                "image": "",
+                "description": "High-quality equipment item 2 suitable for daily use."
+            },
+            {
+                "id": 227,
+                "name": "Equipment Product 3",
+                "brand": "EquipmentBrand3",
+                "price": 21.98,
+                "oldPrice": null,
+                "rating": 4.4,
+                "image": "",
+                "description": "High-quality equipment item 3 suitable for daily use."
+            }
+        ],
+        "fragrances": [
+            {
+                "id": 228,
+                "name": "Fragrances Product 1",
+                "brand": "FragrancesBrand1",
+                "price": 10.0,
+                "oldPrice": null,
+                "rating": 4.2,
+                "image": "",
+                "description": "High-quality fragrances item 1 suitable for daily use."
+            },
+            {
+                "id": 229,
+                "name": "Fragrances Product 2",
+                "brand": "FragrancesBrand2",
+                "price": 15.99,
+                "oldPrice": 20.99,
+                "rating": 4.3,
+                "image": "",
+                "description": "High-quality fragrances item 2 suitable for daily use."
+            },
+            {
+                "id": 230,
+                "name": "Fragrances Product 3",
+                "brand": "FragrancesBrand3",
+                "price": 21.98,
+                "oldPrice": null,
+                "rating": 4.4,
+                "image": "",
+                "description": "High-quality fragrances item 3 suitable for daily use."
+            }
+        ],
+        "personal": [
+            {
+                "id": 231,
+                "name": "Personal Care Appliances Product 1",
+                "brand": "Personal Care AppliancesBrand1",
+                "price": 10.0,
+                "oldPrice": null,
+                "rating": 4.2,
+                "image": "",
+                "description": "High-quality personal care appliances item 1 suitable for daily use."
+            },
+            {
+                "id": 232,
+                "name": "Personal Care Appliances Product 2",
+                "brand": "Personal Care AppliancesBrand2",
+                "price": 15.99,
+                "oldPrice": 20.99,
+                "rating": 4.3,
+                "image": "",
+                "description": "High-quality personal care appliances item 2 suitable for daily use."
+            },
+            {
+                "id": 233,
+                "name": "Personal Care Appliances Product 3",
+                "brand": "Personal Care AppliancesBrand3",
+                "price": 21.98,
+                "oldPrice": null,
+                "rating": 4.4,
+                "image": "",
+                "description": "High-quality personal care appliances item 3 suitable for daily use."
+            }
+        ],
+        "cameras": [
+            {
+                "id": 234,
+                "name": "Camera Product 1",
+                "brand": "CameraBrand1",
+                "price": 10.0,
+                "oldPrice": null,
+                "rating": 4.2,
+                "image": "",
+                "description": "High-quality camera item 1 suitable for daily use.",
+                "borrow": true
+            },
+            {
+                "id": 235,
+                "name": "Camera Product 2",
+                "brand": "CameraBrand2",
+                "price": 15.99,
+                "oldPrice": 20.99,
+                "rating": 4.3,
+                "image": "",
+                "description": "High-quality camera item 2 suitable for daily use."
+            },
+            {
+                "id": 236,
+                "name": "Camera Product 3",
+                "brand": "CameraBrand3",
+                "price": 21.98,
+                "oldPrice": null,
+                "rating": 4.4,
+                "image": "",
+                "description": "High-quality camera item 3 suitable for daily use.",
+                "borrow": true
+            }
+        ],
+        "gaming": [
+            {
+                "id": 237,
+                "name": "Gaming Product 1",
+                "brand": "GamingBrand1",
+                "price": 10.0,
+                "oldPrice": null,
+                "rating": 4.2,
+                "image": "",
+                "description": "High-quality gaming item 1 suitable for daily use."
+            },
+            {
+                "id": 238,
+                "name": "Gaming Product 2",
+                "brand": "GamingBrand2",
+                "price": 15.99,
+                "oldPrice": 20.99,
+                "rating": 4.3,
+                "image": "",
+                "description": "High-quality gaming item 2 suitable for daily use."
+            },
+            {
+                "id": 239,
+                "name": "Gaming Product 3",
+                "brand": "GamingBrand3",
+                "price": 21.98,
+                "oldPrice": null,
+                "rating": 4.4,
+                "image": "",
+                "description": "High-quality gaming item 3 suitable for daily use."
+            }
+        ],
+        "audio": [
+            {
+                "id": 240,
+                "name": "Audio Product 1",
+                "brand": "AudioBrand1",
+                "price": 10.0,
+                "oldPrice": null,
+                "rating": 4.2,
+                "image": "",
+                "description": "High-quality audio item 1 suitable for daily use."
+            },
+            {
+                "id": 241,
+                "name": "Audio Product 2",
+                "brand": "AudioBrand2",
+                "price": 15.99,
+                "oldPrice": 20.99,
+                "rating": 4.3,
+                "image": "",
+                "description": "High-quality audio item 2 suitable for daily use."
+            },
+            {
+                "id": 242,
+                "name": "Audio Product 3",
+                "brand": "AudioBrand3",
+                "price": 21.98,
+                "oldPrice": null,
+                "rating": 4.4,
+                "image": "",
+                "description": "High-quality audio item 3 suitable for daily use."
+            }
+        ],
+        "accessories": [
+            {
+                "id": 243,
+                "name": "Accessories Product 1",
+                "brand": "AccessoriesBrand1",
+                "price": 10.0,
+                "oldPrice": null,
+                "rating": 4.2,
+                "image": "",
+                "description": "High-quality accessories item 1 suitable for daily use."
+            },
+            {
+                "id": 244,
+                "name": "Accessories Product 2",
+                "brand": "AccessoriesBrand2",
+                "price": 15.99,
+                "oldPrice": 20.99,
+                "rating": 4.3,
+                "image": "",
+                "description": "High-quality accessories item 2 suitable for daily use."
+            },
+            {
+                "id": 245,
+                "name": "Accessories Product 3",
+                "brand": "AccessoriesBrand3",
+                "price": 21.98,
+                "oldPrice": null,
+                "rating": 4.4,
+                "image": "",
+                "description": "High-quality accessories item 3 suitable for daily use."
+            }
+        ]
+    }
+}
